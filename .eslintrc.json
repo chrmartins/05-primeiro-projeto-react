@@ -36,7 +36,13 @@
         ]
       }
     ],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpression": true
+      }
+    ]
   },
   "settings": {
     "import/resover": {
